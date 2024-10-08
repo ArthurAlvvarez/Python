@@ -69,5 +69,4 @@ if "hola" in mi_lista:
     print("La palabra está")
 else:
     print("no está")
-
 print()
