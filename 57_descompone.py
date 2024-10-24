@@ -1,4 +1,4 @@
-n = input("Dime un numero de maximo 3 numeros")
+n = input("Dime un numero de maximo 3 cifras")
 
 match len(n):
     case 1:
