@@ -1,0 +1,15 @@
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+lista_vacia = []
+division = int(input("¿En cuántas partes quieres dividir la lista?: "))
+
+result = len(lista) // division
+
+while len(lista) > 0:
+    temp = [] 
+    for i in range(result):
+        if len(lista) > 0:  
+            temp.append(lista.pop(0))  
+    lista_vacia.append(temp) 
+
+print(lista_vacia)
+    
