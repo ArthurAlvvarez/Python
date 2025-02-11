@@ -7,12 +7,12 @@ ventana.title("eeeeepa")
 
 def suma():
     global i
-    i = int(texto.get(1.0)) 
+    i = int(texto.get(1.0,tk.END)) 
     texto.delete(1.0,tk.END)
 
 def igual():
     global i, j
-    j = int(texto.get(1.0).strip())
+    j = int(texto.get(1.0,tk.END))
     resultado = i+j
     texto.delete(1.0,tk.END)
     texto.insert(tk.END, resultado)

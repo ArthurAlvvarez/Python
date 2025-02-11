@@ -18,7 +18,7 @@ entrada1.grid(column= 0, row= 0, padx=10, pady=10 )
 
 boton = tk.Button(ventana, text='dale', command=par_impar)
 boton.grid(column= 0,row=1,pady=10)
-resultado = tk.Label(ventana)
+resultado = tk.Label(ventana,text="ey")
 resultado.grid(column= 0,row=2,pady=10)
 
 ventana.mainloop()

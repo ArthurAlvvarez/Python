@@ -12,6 +12,5 @@ estudiantes = {}
 
 for i in mate:
     if i in ciencias:
-        estudiantes[i] = {"Mate" : mate[i],
-        "ciencias": ciencias[i]}
+        estudiantes[i] = ["Mates: " + str(mate[i]) + ", Ciencias: " + str(ciencias[i])]
 print(estudiantes)

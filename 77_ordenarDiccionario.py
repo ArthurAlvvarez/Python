@@ -8,10 +8,16 @@ poblaciones = {
     "Nigeria": 211400708
 }
 
+array = []
+dic ={}
 
-poblaciones_ordenadas = dict(sorted(zip(poblaciones.keys(), poblaciones.values())))
+for i,j in poblaciones.items():
+    array.append(j)
 
-print(poblaciones_ordenadas)
+array.sort(reverse=True)
 
-    
-    
+for i in array:
+    for j,k in poblaciones.items():
+        if i == k:
+            dic[j] = k
+print(dic)
